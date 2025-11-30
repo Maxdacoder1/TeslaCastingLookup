@@ -106,3 +106,36 @@
 .spinner-border {
     color: #dc3545;
 }
+
+/* Tesla Logo Sidebar (Floating) */
+.tesla-sidebar {
+    position: fixed;
+    right:  150px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    border: none !important;
+    background: none !important;
+    box-shadow: none !important;
+}
+
+.logo-image {
+    max-width: 330px;
+    height: auto;
+    filter: drop-shadow(0 0 10px rgba(220, 53, 69, 0.3));
+}
+
+/* Enhanced dark theme */
+body {
+    background-color: #0a0a0a !important;
+}
+
+/* Ensure navbar is fully dark */
+.navbar-dark {
+    background-color: #000000 !important;
+}
+
+/* Improve card shadows for better depth */
+.card {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8) !important;
+}

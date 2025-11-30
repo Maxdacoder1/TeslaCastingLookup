@@ -42,7 +42,7 @@ def setup_database():
     conn.commit()
 
     # Insert data from CSV file
-    with open('tesla_castings.csv', 'r') as file:  # Open CSV with read mode
+    with open('data/tesla_castings.csv', 'r') as file:  # Open CSV with read mode
         reader = csv.DictReader(file)  # Use DictReader for header-based access
         for row in reader:  # Iterate through each row in the CSV
             try:
